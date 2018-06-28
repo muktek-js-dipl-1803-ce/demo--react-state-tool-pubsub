@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #424242;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+mark{
+  background-color: palegoldenrod;
+  padding: .5rem;
+}
+
+#app-container{
+  padding-top: 60px;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background: #FAFAFA ;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
+.navbar{
+  position: fixed;
+  height: 60px;
+  background: #37474F;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:  flex-end;
+  align-content: center;
+  top: 0;
+  left: 0;
+  border-bottom: 2px solid rgba(240,240,240, .2);
+
+}
+
+.navbar a{
+  margin: 0;
+  border-left: 1px solid #fafafa;
+  color: #fff;
+  text-decoration: none;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 1rem;
+}
+
+.home-page{
+  border-left: #388E3C 5px solid;
+  border-right: #388E3C 5px solid;
+
+}
+
+.about-page{
+  border-left: #3F51B5 5px solid;
+  border-right: #3F51B5 5px solid;
+}
+
+.users-page{
+  border-left: #EF5350 5px solid;
+  border-right: #EF5350 5px solid;
+}
+
+.userslist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-card{
+  max-width: 160px;
+  margin: .5rem;
+  padding: 1rem;
+  border: 1px solid #666;
+
+}
+.user-card img {
+  max-width: 150px;
+  margin: 0 auto;
+  border: 1px #afafaf solid;
+  border-radius: 50%;
+  padding: .5rem;
+}
+
+.user-card > *{
+  margin: .5rem 0 .5rem 0;
+}
