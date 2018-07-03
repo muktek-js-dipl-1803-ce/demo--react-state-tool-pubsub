@@ -59,7 +59,13 @@ mark{
 .home-page{
   border-left: #388E3C 5px solid;
   border-right: #388E3C 5px solid;
+}
 
+.secret-page,
+.about-page,
+.home-page{
+  padding: 0rem 1rem;
+  min-height: 100vh;
 }
 
 .about-page{
@@ -70,6 +76,11 @@ mark{
 .users-page{
   border-left: #EF5350 5px solid;
   border-right: #EF5350 5px solid;
+}
+
+.secret-page{
+  border-left: #f39c12 5px solid;
+  border-right: #f39c12 5px solid;
 }
 
 .userslist{
@@ -95,4 +106,40 @@ mark{
 
 .user-card > *{
   margin: .5rem 0 .5rem 0;
+}
+
+.footer{
+  background: #313;
+  margin: 0 -1rem;
+  padding: .5rem;
+  background: #d35400;
+}
+
+.btn{
+  border: 1px solid #333;
+  padding: 1rem;
+  background: rgba(255,255,255,.3);
+}
+
+.btn--small{
+  padding: .5rem;
+}
+
+.btn--info{
+  color: #d35400;
+  border: 1px solid #d35400;
+}
+
+.btn--primary{
+  color: #2980b9;
+  border: 1px solid #2980b9;
+}
+
+.click-count{
+  display: inline-block;
+  background: #f1c40f;
+  font-size: 21px;
+  padding: 1rem;
+  vertical-align: middle;
+  margin-left: 1rem;
 }

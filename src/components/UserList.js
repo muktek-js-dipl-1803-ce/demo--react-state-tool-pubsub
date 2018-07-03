@@ -82,7 +82,10 @@ class UserList extends Component {
   }
 
   componentWillReceiveProps(newProps){
-    this._fetchUserData(newProps)
+
+    if(newProps.match.url !== this.props.match.url){
+      this._fetchUserData(newProps)
+    }
   }
 
   _renderCards(userList){
@@ -99,9 +102,6 @@ class UserList extends Component {
 
     return userComponentList
   }
-
-
-
 
   render() {
 
